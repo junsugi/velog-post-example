@@ -26,12 +26,3 @@ export default NextAuth({
         signIn: '/login',
     }
 })
-
-// callbacks: {
-//     async jwt(token, user, account, profile,isNewUser){
-//         return token;
-//     },
-//     async session(session, userOrToken) {
-//         return session
-//     }
-// }
